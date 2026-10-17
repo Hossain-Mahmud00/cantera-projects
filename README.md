@@ -14,3 +14,8 @@ Tools: Python, Cantera (GRI-Mech 3.0), NumPy, Matplotlib
 ## Plug flow reactor
 - Ignition distance along a tube at constant pressure
 - Effect of mass flow rate on ignition distance
+
+## Thermodynamic properties
+- Fluid properties and phase behavior with the Thermo library
+- Vapor pressure curves for water and ethanol
+- Real-gas behavior of methane with the Peng-Robinson equation of state (compressibility factor Z)
