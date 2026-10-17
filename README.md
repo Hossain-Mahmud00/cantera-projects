@@ -19,3 +19,8 @@ Tools: Python, Cantera (GRI-Mech 3.0), NumPy, Matplotlib
 - Fluid properties and phase behavior with the Thermo library
 - Vapor pressure curves for water and ethanol
 - Real-gas behavior of methane with the Peng-Robinson equation of state (compressibility factor Z)
+
+## Vapor-liquid equilibrium
+- Ethanol-water boiling diagram using Raoult's law (ideal mixture)
+- Non-ideal behavior with Van Laar activity coefficients
+- Azeotrope calculation (x = 0.91, T = 351.45 K) compared with published data (about 0.89, 351.3 K)
