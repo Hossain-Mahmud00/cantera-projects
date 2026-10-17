@@ -10,3 +10,7 @@ Chemical engineering simulations with Cantera and Python.
 - Arrhenius analysis of effective activation energy
 
 Tools: Python, Cantera (GRI-Mech 3.0), NumPy, Matplotlib
+
+## Plug flow reactor
+- Ignition distance along a tube at constant pressure
+- Effect of mass flow rate on ignition distance
