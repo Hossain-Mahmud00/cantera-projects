@@ -30,3 +30,9 @@ Tools: Python, Cantera (GRI-Mech 3.0), NumPy, Matplotlib
 - TCS-STC equilibrium curve (ideal mixture, Raoult's law)
 - McCabe-Thiele design: Rmin = 1.41, R = 1.83, 22 theoretical stages, feed on stage 11
 - Cross-check with Fenske-Gilliland shortcut method (22.6 stages)
+
+## Heat exchanger sizing (TCS condenser)
+- Heat duty from latent heat of trichlorosilane (183 kW for 1 kg/s)
+- Chilled water flow and log-mean temperature difference (LMTD = 21.5 K)
+- Overall U built from tube-side (Dittus-Boelter) and condensing-side (Nusselt) coefficients, with wall and fouling resistances
+- Converged design: U = 797 W/m2K, area 10.7 m2, 30 tubes (2 passes), 0.23 bar water-side pressure drop
