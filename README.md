@@ -24,3 +24,9 @@ Tools: Python, Cantera (GRI-Mech 3.0), NumPy, Matplotlib
 - Ethanol-water boiling diagram using Raoult's law (ideal mixture)
 - Non-ideal behavior with Van Laar activity coefficients
 - Azeotrope calculation (x = 0.91, T = 351.45 K) compared with published data (about 0.89, 351.3 K)
+
+## TCS distillation column design
+- Vapor pressures and relative volatility of trichlorosilane (TCS) and silicon tetrachloride (STC)
+- TCS-STC equilibrium curve (ideal mixture, Raoult's law)
+- McCabe-Thiele design: Rmin = 1.41, R = 1.83, 22 theoretical stages, feed on stage 11
+- Cross-check with Fenske-Gilliland shortcut method (22.6 stages)
